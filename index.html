@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arcane Movie Theater 🍿</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../my-movie-theater/CSS/style.css" />
+</head>
+<body>
+  <section class="theater">
+    <h1>🎬 Welcome to Negita's Movie Theater 🎭</h1>
+
+    <div class="screen">
+      <video controls>
+        <source src="..//my-movie-theater/" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="buttons">
+      <button onclick="document.querySelector('video').currentTime = 0; document.querySelector('video').play();">
+        🔁 Play Again
+      </button>
+      <button onclick="alert('Thanks for watching Arcane! ⭐⭐⭐⭐⭐')">
+        🌟 Rate Movie
+      </button>
+    </div>
+  </section>
+</body>
+</html>
